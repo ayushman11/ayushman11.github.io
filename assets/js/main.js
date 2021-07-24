@@ -29,6 +29,21 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
+// ======================= TYPING ANIMATION ======================
+
+var typed = new Typed(".typing", {
+    strings: ['Frontend Developer', 'Backend Developer', 'App Developer', 'Programmer', 'Student'],
+    typeSpeed: 60,
+    backSpeed: 30,
+    loop:true,
+});
+var typed = new Typed(".typing-2", {
+    strings: ['Frontend Developer', 'Backend Developer', 'App Developer', 'Programmer', 'Student'],
+    typeSpeed: 60,
+    backSpeed: 30,
+    loop:true,
+});
+
 // ======================= ACCORDIAN SKILLS =======================
 const skillsContent = document.getElementsByClassName('skills_content'),
       skillsHeader = document.querySelectorAll('.skills_header')
