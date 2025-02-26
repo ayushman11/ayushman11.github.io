@@ -309,7 +309,7 @@ nav_icon {
 }
 
 .home_blob-img {
-  width: 190px;
+  width: 200px;
 }
 
 .home_data {
@@ -488,14 +488,24 @@ nav_icon {
 }
 
 .skills_list {
-  row-gap: 1.5rem;
+  row-gap: 0.5rem;
   padding-left: 2.7rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .skills_titles {
   display: flex;
   justify-content: space-between;
   margin-bottom: var(--mb-0-5);
+}
+
+.skills_item {
+  margin: 0.1rem 0.2rem;
+  padding: 2%;
+  border: 2px solid var(--text-color);
+  border-radius: 16px;
 }
 
 .skills_name {
@@ -628,6 +638,10 @@ nav_icon {
 
 .qualification [data-content] {
   display: none;
+}
+
+.qualification_tab_active[data-target] {
+  color: var(--first-color);
 }
 
 .qualification_active[data-content] {

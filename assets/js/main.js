@@ -32,13 +32,13 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 // ======================= TYPING ANIMATION ======================
 
 var typed = new Typed(".typing", {
-    strings: ['Frontend Developer', 'Backend Developer', 'App Developer', 'Programmer', 'Student'],
+    strings: ['Software Developer', 'App Developer', 'Programmer', 'Blockchain', 'AI and Machine Learning'],
     typeSpeed: 60,
     backSpeed: 30,
     loop:true,
 });
 var typed = new Typed(".typing-2", {
-    strings: ['Frontend Developer', 'Backend Developer', 'App Developer', 'Programmer', 'Student'],
+    strings: ['Software Developer', 'App Developer', 'Programmer', 'Blockchain', 'AI and Machine Learning'],
     typeSpeed: 60,
     backSpeed: 30,
     loop:true,
@@ -78,9 +78,9 @@ tabs.forEach(tab => {
         target.classList.add('qualification_active')
 
         tabs.forEach(tab => {
-            tab.classList.remove('qualification_active')
+            tab.classList.remove('qualification_tab_active')
         })
-        tab.classList.add('qualification_active')
+        tab.classList.add('qualification_tab_active')
 
     })
 })
